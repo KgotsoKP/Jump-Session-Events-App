@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.btn-container{
+    bottom: 10%;
+    position: absolute;
+    right: 38%;
+}
+.location-container {
+    height: 100%;
+}
+
+.btn{
+    width: 66px;
+height: 36px;
+left: 135.33px;
+top: 559px;
+
+background: #000000;
+border-radius: 4px;
+color: #fff;
+text-transform: uppercase;
+justify-content: center;
+}
+
+.locationSelector{
+    align-content: center;
+    width: 90%;
+    margin: 16px;
+}
