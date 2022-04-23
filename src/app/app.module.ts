@@ -8,6 +8,8 @@ import { LocationSettingsComponent } from './components/location-settings/locati
 import { ExpandedListItemComponent } from './components/expanded-list-item/expanded-list-item.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { BookedComponent } from './components/booked/booked.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -17,12 +19,10 @@ import { BookedComponent } from './components/booked/booked.component';
     LocationSettingsComponent,
     ExpandedListItemComponent,
     CheckoutComponent,
-    BookedComponent
+    BookedComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, BrowserAnimationsModule, MatSliderModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
