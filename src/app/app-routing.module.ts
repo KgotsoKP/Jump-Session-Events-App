@@ -8,7 +8,13 @@ import { ExpandedListItemComponent } from './components/expanded-list-item/expan
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { BookedComponent } from './components/booked/booked.component';
 
-const routes: Routes = [{ path: 'slash', component: SplashComponent }];
+const routes: Routes = [
+  { path: '', component: SplashComponent },
+  { path: 'home', component: ListComponent },
+  { path: 'expanded', component: ExpandedListItemComponent },
+  { path: 'checkout', component: CheckoutComponent },
+  { path: 'location', component: LocationSettingsComponent },
+];
 
 @NgModule({
   declarations: [],
