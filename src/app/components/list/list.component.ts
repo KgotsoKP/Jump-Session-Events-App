@@ -1,4 +1,5 @@
 import { Component, OnInit,Input } from '@angular/core';
+import data from "../../data"
 
 @Component({
   selector: 'app-list',
@@ -6,8 +7,9 @@ import { Component, OnInit,Input } from '@angular/core';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
-  
 
+  //eventsData [] = 
+  // data.events;
   constructor() { }
 
   ngOnInit(): void {

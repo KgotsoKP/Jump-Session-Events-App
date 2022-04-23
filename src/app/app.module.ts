@@ -11,6 +11,7 @@ import { BookedComponent } from './components/booked/booked.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { HeaderComponent } from './components/header/header.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HeaderComponent } from './components/header/header.component';
     CheckoutComponent,
     BookedComponent,
     HeaderComponent,
+    CardComponent,
   ],
   imports: [BrowserModule, BrowserAnimationsModule, MatSliderModule],
   providers: [],
