@@ -1,1 +1,5 @@
-<p>list works!</p>
+<div class="event_list">
+  <div class="listCon" *ngFor="let event of events">
+    <app-card [event]="event"></app-card>
+  </div>
+</div>
