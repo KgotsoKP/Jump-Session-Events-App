@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body {
+    background-color: #ecf0f1;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    /*height: 56px;*/
+    align-self: center;
+    align-items: center;
+}
+
+
+#logo{
+    font-weight: 800;
+    background-color: black;
+   padding: 15px;
+    border-radius: 50%;
+}
+
+#logo-text{
+border-radius: 0px;
+color: white;
+}
+
+.current-location{
+    text-decoration: underline;
+}

@@ -10,6 +10,7 @@ import { CheckoutComponent } from './components/checkout/checkout.component';
 import { BookedComponent } from './components/booked/booked.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { MatSliderModule } from '@angular/material/slider';
     ExpandedListItemComponent,
     CheckoutComponent,
     BookedComponent,
+    HeaderComponent,
   ],
   imports: [BrowserModule, BrowserAnimationsModule, MatSliderModule],
   providers: [],
