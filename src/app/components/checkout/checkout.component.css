@@ -1,0 +1,180 @@
+.theBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  margin: 10px 0;
+}
+.mainImage {
+  width: 180px;
+  height: 130px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.topDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.hh1 {
+  /* Subtitle 1 */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.15px;
+
+  /* 00. On Surface / High Emphasis */
+
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.hh2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+  margin: 0;
+  letter-spacing: 0.25px;
+
+  /* 00. On Surface / Medium Emphasis */
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.cartCard {
+  padding: 0 10px;
+}
+
+.bottomDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.deleteButton {
+  display: flex;
+  width: 72.57px;
+  height: 24.45px;
+
+  background: #000000;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.t1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+}
+
+.minus {
+  width: 18px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  border-radius: 4px;
+}
+
+.plus {
+  width: 18px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  border-radius: 4px;
+}
+
+.bottomLine {
+  border-bottom-color: black;
+  border-block-width: 2px;
+  width: 100vw;
+  height: 10px;
+}
+
+.checkOutBox {
+  width: 95vw;
+  height: 116.65px;
+  margin: 40px auto;
+  padding: 10px;
+  background: rgba(196, 196, 196, 0.1);
+  /* Surface overlay */
+
+  border: 1px solid rgba(33, 33, 33, 0.08);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.buttonCheck {
+  width: 105px;
+  height: 28px;
+  background: #000000;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.t2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.15px;
+
+  color: #000000;
+}
+.buttonStyle {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+}
+
+.t3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+}
