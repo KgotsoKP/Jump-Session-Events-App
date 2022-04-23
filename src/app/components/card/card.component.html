@@ -1,14 +1,24 @@
 <div class="card">
-    <div class="card_image">
-        <img width="100%" src="https://picsum.photos/200/300?random=1" alt="Event image">
-    </div>
+  <div class="card_image">
+    <img
+      class="mainImage"
+      src="https://picsum.photos/200/300?random=1"
+      alt="Event image"
+    />
+  </div>
 
-    <div class="event-info">
-    <h1 class="card-event_name">Event name</h1>
+  <div class="event-info">
+    <h1 class="card-event_name">{{ event.name }}</h1>
     <div class="card-event-details">
-        <p><span class="material-icons">location_on</span>  Location</p>
-        <p><span class="material-icons">local_offer</span> Price</p>
-        <p><span class="material-icons">schedule</span> Time</p>
+      <p class="iiss">
+        <span class="material-icons t1">location_on</span> {{ event.location }}
+      </p>
+      <p class="iiss">
+        <span class="material-icons t1">local_offer</span> {{ event.price }}
+      </p>
+      <p class="iiss">
+        <span class="material-icons t1">schedule</span> {{ event.time }}
+      </p>
     </div>
-</div>
+  </div>
 </div>
