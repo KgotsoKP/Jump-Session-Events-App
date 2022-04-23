@@ -1,1 +1,14 @@
-<p>location-settings works!</p>
+<div class="location-container">
+<div>
+<mat-form-field class = "locationSelector">
+    <mat-select>
+        <mat-option *ngFor="let location of locations" [value]="location.value">
+            {{location.viewValue}}
+        </mat-option>
+    </mat-select>
+</mat-form-field>
+</div>
+<div class="btn-container">
+<button class="btn">Save</button>
+</div>
+</div>

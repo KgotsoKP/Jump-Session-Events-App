@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -10,6 +10,9 @@ import { CheckoutComponent } from './components/checkout/checkout.component';
 import { BookedComponent } from './components/booked/booked.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatSelectModule } from '@angular/material/select';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatOptionModule } from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -21,8 +24,16 @@ import { MatSliderModule } from '@angular/material/slider';
     CheckoutComponent,
     BookedComponent,
   ],
-  imports: [BrowserModule, BrowserAnimationsModule, MatSliderModule],
+  imports: [BrowserModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatSelectModule,
+    MatFormFieldModule,
+    MatOptionModule
+
+  ],
   providers: [],
   bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class AppModule {}
+export class AppModule { }
